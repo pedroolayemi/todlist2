@@ -6,7 +6,7 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(#ffd55c 50%,#5a95ff 50%);
+    background: linear-gradient(#dbd8e3 50%, #5c5470 50%);
 }
 
 .app{
@@ -20,7 +20,7 @@ body{
 }
 .container {
     padding: 2em 2.5em;
-    background-color: #f1f8fb;
+    background-color: #dbd8e3;
     box-shadow: 0 1em 2em rgba(0, 0, 0, 0.3);
     border-radius: 0.8em;
 }
@@ -42,7 +42,7 @@ body{
 }
 #wrapper input:focus {
     outline: none;
-    border-color: #5a95ff;
+    border-color:#6e6585 ;
 }
 
 #wrapper button{
@@ -50,7 +50,7 @@ body{
     border-radius: 0.5em;
     font-weight: 500;
     font-size: 1em;
-    background-color: #5a95ff;
+    background-color: #352f44;
     border: none;
     color: #ffffff;
     cursor: pointer;
@@ -108,8 +108,8 @@ body{
 }
 
 .task input[type="checkbox"]:checked {
-    background-color: #5a95ff;
-    border-color: #5a95ff;
+    background-color: #6e6585;
+    border-color: #2a2438;
 }
 
 .task input [type="checkbox"]:checked:before{
@@ -125,6 +125,7 @@ body{
     font: 0.9em;
     font-weight: 400;
     word-break: break-all;
+    color:#2a2438 ;
 }
 
 .task button {
@@ -138,18 +139,23 @@ body{
 }
 
 .edit{
-    background-color:#5a95ff ;
+    background-color:#5c5470;
 }
 
 .delete{
-    background-color: #ff5c5c;
+    background-color: #352f44;
 }
 
 #pending-tasks span{
-    color: #5a95ff;
+    color: #111111;
+}
+
+#pending-tasks{
+    color: #736a89;
 }
 
 .completed {
     text-decoration: line-through;
     color: #a0a0a0;
 }
+
